@@ -1,0 +1,28 @@
+The Battle of Neighborhoods - Week 1
+
+Introduction & Business Problem:
+Problem Background:
+New York City has a population of 8M, offering infinite things to tourists and its citizens, where restaurants play a very important role which gives New York City a unique taste. According to answers.com, there are more than 20,000 restaurants listed by the New York City Department of Health.
+
+Problem Description:
+Due to its nature of multiple ethnics, it’s a problem for those who wants to start up a restaurant: which borough, neighborhoods and even venues are the best choice? What should be considered if we want to make a prioritized list of available places by doing some data analysis?
+When exploring this problem, the first idea coming up is, we want to find a place with most population but least restaurant density. The other choice is the ratio between the GDP or average income per person versus the number of restaurants. 
+And we want to find out such kink of lists for each restaurant types: Chinese, Jewish, Italian, etc.
+
+Target Audience of this research will be those who want to start up a business (especially a restaurant) in a big city like New York City.
+
+The Data:
+1.	Foursquare API gives data of boroughs, neighborhoods, venues, venue categories and their LngLat data.
+2.	New York City restaurant list:
+https://en.wikipedia.org/wiki/List_of_restaurants_in_New_York_City
+There are coordinate data for each restaurant if following the links.
+3.	New York City Community areas, where we can find out the areas and population / square KM  of each CB:
+https://en.wikipedia.org/wiki/Neighborhoods_in_New_York_City
+
+The solution:
+1.	Work out a list of restaurants together with their types and the neighborhoods from Foursquare data.
+2.	Work out a list of population per square KM for each neighborhood.
+3.	Work out a function to give the prioritized list ordered by least number of restaurant / pop. Per square KM, by giving a restaurant type as the parameter.
+
+Success Criteria:
+The success criteria of the project will be giving out lists of prioritized list of neighborhoods for each restaurant type in New York City.
